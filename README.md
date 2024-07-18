@@ -18,6 +18,6 @@ this will be shifting the CoM to the opposite side of the next step’s side.
 2. SSP is the single support phase where we must lift the respective leg and
 move it to the next footstep position , retaining the robot’s balance in the
 process.
-<p>This is a paragraph that contains an image.
-    <img src="images/image copy.png" alt="Description of image" width="500" height="600">
+<p>
+    <img src="images/image copy.png" alt="Description of image" width="400" >
 </p>
