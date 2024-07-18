@@ -40,4 +40,6 @@ step.
 
 ## Foot Trajectory
 
-This is an inline equation: $$ E = mc^2 $$.
+This is an inline equation: $ p(\frac{T_{SSP}}{2}) = \begin{bmatrix}
+        \frac{p_{0x}+p_{1x}}{2} \\ \frac{p_{0y}+p_{1y}}{2}\\ H\\
+    \end{bmatrix} $.
