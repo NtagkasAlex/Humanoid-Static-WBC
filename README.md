@@ -40,4 +40,4 @@ step.
 
 ## Foot Trajectory
 
-This is an inline equation: $E = mc^2$.
+This is an inline equation: $$ E = mc^2 $$.
