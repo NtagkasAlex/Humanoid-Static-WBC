@@ -40,6 +40,42 @@ step.
 
 ## Foot Trajectory
 
-This is an inline equation: $ p(\frac{T_{SSP}}{2}) = \begin{bmatrix}
-        \frac{p_{0x}+p_{1x}}{2} \\ \frac{p_{0y}+p_{1y}}{2}\\ H\\
-    \end{bmatrix} $.
+The foot has to move only on SSP. The starting point will be the current position
+of the foot calculated by the forward Kinematics and the desired position will
+be the next footsteps placement. However, we need to add one more point, in
+order to lift the foot of the ground. For more details see the full report.
+
+<p>
+    <img src="images/image copy 6.png" alt="Description of image" width="400" >
+    <img src="images/image copy 7.png" alt="Description of image" width="400" >
+</p>
+
+## Friction Cones
+To ensure there is no slip I will be using friction cone constrains for the contact points 
+<p>
+    <img src="images/image copy 8.png" alt="Description of image" width="200" >
+</p>
+
+# Results 
+
+The result is as below:
+
+![](images/results.gif)
+
+And the measured trajectories for the CoM and Legs:
+<p>
+    <img src="images/image copy 11.png" alt="Description of image" width="200" >
+</p>
+
+<p>
+    <img src="images/image copy 12.png" alt="Description of image" width="200" >
+</p>
+
+<p>
+    <img src="images/image copy 13.png" alt="Description of image" width="200" >
+</p>
+
+We see that for the most part the trajectories are identical to the desired.
+The CoM swings around the y axis and has almost constant z-axis value.
+The legs’ x-axis has step increments like expected the y axis is pretty much
+constant and the z value has some spikes which are the lift phases.
