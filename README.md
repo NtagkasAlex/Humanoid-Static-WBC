@@ -1,4 +1,4 @@
-## Humanoid-Static-WBC
+# Humanoid-Static-WBC
 Humanoid walking with whole body control involves the coordinated management of all joints and limbs to achieve a stable walking motion.
 * Footstep generation
 * Center of Mass(CoM) trajectory Planning
@@ -8,7 +8,7 @@ Humanoid walking with whole body control involves the coordinated management of 
 the movement.
 
 
-# Finite State Machine
+## Finite State Machine
 
 The FSM for a humanoid walking algorithm is one of the most important aspects. I will be using something similar to this:
 
@@ -21,3 +21,23 @@ process.
 <p>
     <img src="images/image copy.png" alt="Description of image" width="400" >
 </p>
+
+## Cubic Hermite Splines Trajectories
+Cubic Hermite splines are a type of spline where each piece is a third-degree
+polynomial specified in Hermite form. The spline ensures continuity of both the
+function and its first derivative.
+
+## CoM Trajectory
+On SSP, as we see below, we have to move the CoM towards the landing
+stop of the opposite foot.
+
+On DSP the CoM has to remain on the offset point and wait for the next
+step.
+
+<p>
+    <img src="images/image copy 3.png" alt="Description of image" width="400" >
+</p>
+
+## Foot Trajectory
+
+This is an inline equation: $E = mc^2$.
