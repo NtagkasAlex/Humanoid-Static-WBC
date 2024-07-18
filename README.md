@@ -53,7 +53,7 @@ order to lift the foot of the ground. For more details see the full report.
 ## Friction Cones
 To ensure there is no slip I will be using friction cone constrains for the contact points 
 <p>
-    <img src="images/image copy 8.png" alt="Description of image" width="200" >
+    <img src="images/image copy 8.png" alt="Description of image" width="500" >
 </p>
 
 # Results 
@@ -64,15 +64,15 @@ The result is as below:
 
 And the measured trajectories for the CoM and Legs:
 <p>
-    <img src="images/image copy 11.png" alt="Description of image" width="200" >
+    <img src="images/image copy 11.png" alt="Description of image" width="700" >
 </p>
 
 <p>
-    <img src="images/image copy 12.png" alt="Description of image" width="200" >
+    <img src="images/image copy 12.png" alt="Description of image" width="700" >
 </p>
 
 <p>
-    <img src="images/image copy 13.png" alt="Description of image" width="200" >
+    <img src="images/image copy 13.png" alt="Description of image" width="700" >
 </p>
 
 We see that for the most part the trajectories are identical to the desired.
